@@ -46,4 +46,4 @@ The project follows the **Page Object Model (POM)** design pattern for better ma
 ## How to Run
 1. Clone the repository:  
 ```bash
-git clone https://github.com/username/OrangeHRMAutomation.git
+git clone https://github.com/divi345/OrangeHRMAutomation.git
