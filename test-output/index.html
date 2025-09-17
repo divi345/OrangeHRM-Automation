@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 8 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-OrangeHRM_Automation_Suite" class="navigator-link">
+              <span class="suite-name border-failed">OrangeHRM Automation Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-OrangeHRM_Automation_Suite" class="navigator-link ">
+                    <span>C:\Users\91967\eclipse-workspace\OrangeHRM-Automation\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-OrangeHRM_Automation_Suite" class="navigator-link ">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-OrangeHRM_Automation_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-OrangeHRM_Automation_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-OrangeHRM_Automation_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-OrangeHRM_Automation_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-OrangeHRM_Automation_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">21 methods, 8 failed,   13 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-OrangeHRM_Automation_Suite" class="hide-methods failed suite-OrangeHRM_Automation_Suite"> (hide)</a> <!-- hide-methods failed suite-OrangeHRM_Automation_Suite -->
+                      <a href="#" panel-name="suite-OrangeHRM_Automation_Suite" class="show-methods failed suite-OrangeHRM_Automation_Suite"> (show)</a> <!-- show-methods failed suite-OrangeHRM_Automation_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-OrangeHRM_Automation_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Automation_Suite" title="com.orangehrm.LeavePage" class="method navigator-link" hash-for-method="addIndividualEntitlement">addIndividualEntitlement</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Automation_Suite" title="com.orangehrm.LeavePage" class="method navigator-link" hash-for-method="addMultipleEntitlement">addMultipleEntitlement</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Automation_Suite" title="com.orangehrm.PIMTest" class="method navigator-link" hash-for-method="employeeListSearchTest">employeeListSearchTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Automation_Suite" title="com.orangehrm.PIMTest" class="method navigator-link" hash-for-method="fillPersonalDetailsTest">fillPersonalDetailsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Automation_Suite" title="com.orangehrm.LoginTest" class="method navigator-link" hash-for-method="loginDataDrivenTest(Adm, admin123)">loginDataDrivenTest(Adm, admin123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Automation_Suite" title="com.orangehrm.PIMTest" class="method navigator-link" hash-for-method="qualificationsTest">qualificationsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Automation_Suite" title="com.orangehrm.LeavePage" class="method navigator-link" hash-for-method="searchLeaveEntitlements">searchLeaveEntitlements</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Automation_Suite" title="com.orangehrm.LeavePage" class="method navigator-link" hash-for-method="validateMyLeavePage">validateMyLeavePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-OrangeHRM_Automation_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-OrangeHRM_Automation_Suite" class="hide-methods passed suite-OrangeHRM_Automation_Suite"> (hide)</a> <!-- hide-methods passed suite-OrangeHRM_Automation_Suite -->
+                      <a href="#" panel-name="suite-OrangeHRM_Automation_Suite" class="show-methods passed suite-OrangeHRM_Automation_Suite"> (show)</a> <!-- show-methods passed suite-OrangeHRM_Automation_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-OrangeHRM_Automation_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Automation_Suite" title="com.orangehrm.PIMTest" class="method navigator-link" hash-for-method="addEmployeeTest">addEmployeeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Automation_Suite" title="com.orangehrm.PIMTest" class="method navigator-link" hash-for-method="contactDetailsTest">contactDetailsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Automation_Suite" title="com.orangehrm.PIMTest" class="method navigator-link" hash-for-method="dependentsTest">dependentsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Automation_Suite" title="com.orangehrm.PIMTest" class="method navigator-link" hash-for-method="emergencyContactsTest">emergencyContactsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Automation_Suite" title="com.orangehrm.PIMTest" class="method navigator-link" hash-for-method="immigrationRecordsTest">immigrationRecordsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Automation_Suite" title="com.orangehrm.PIMTest" class="method navigator-link" hash-for-method="jobDetailsTest">jobDetailsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Automation_Suite" title="com.orangehrm.LoginTest" class="method navigator-link" hash-for-method="loginDataDrivenTest(Admin, admin123)">loginDataDrivenTest(Admin, admin123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Automation_Suite" title="com.orangehrm.LeavePage" class="method navigator-link" hash-for-method="logoutTest">logoutTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Automation_Suite" title="com.orangehrm.PIMTest" class="method navigator-link" hash-for-method="membershipsTest">membershipsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Automation_Suite" title="com.orangehrm.LeavePage" class="method navigator-link" hash-for-method="openLeavePage">openLeavePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Automation_Suite" title="com.orangehrm.PIMTest" class="method navigator-link" hash-for-method="salaryComponentsTest">salaryComponentsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Automation_Suite" title="com.orangehrm.PIMTest" class="method navigator-link" hash-for-method="supervisorsTest">supervisorsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Automation_Suite" title="com.orangehrm.LeavePage" class="method navigator-link" hash-for-method="validateApplyLeavePage">validateApplyLeavePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-OrangeHRM_Automation_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-OrangeHRM_Automation_Suite" class="panel OrangeHRM_Automation_Suite">
+          <div class="suite-OrangeHRM_Automation_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.orangehrm.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginDataDrivenTest(Adm, admin123)">
+                  </a> <!-- loginDataDrivenTest(Adm, admin123) -->
+                  <span class="method-name">loginDataDrivenTest</span>
+                  <span class="parameters">(Adm,admin123)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Exception during login for: Adm
+	at com.orangehrm.LoginTest.loginDataDrivenTest(LoginTest.java:108)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OrangeHRM_Automation_Suite-class-failed -->
+          <div class="suite-OrangeHRM_Automation_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.orangehrm.LeavePage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addIndividualEntitlement">
+                  </a> <!-- addIndividualEntitlement -->
+                  <span class="method-name">addIndividualEntitlement</span>
+                  <div class="stack-trace">java.lang.AssertionError: Test failed: Expected condition failed: waiting for element to be clickable: By.xpath: //li[.//span[contains(text(),&apos;Entitlements&apos;)]]//ul//a[contains(text(),&apos;Add Entitlement&apos;)] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\91967\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58453}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58453/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 63ef572e620900f008886074f83c45ed
+	at com.orangehrm.LeavePage.addIndividualEntitlement(LeavePage.java:172)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addMultipleEntitlement">
+                  </a> <!-- addMultipleEntitlement -->
+                  <span class="method-name">addMultipleEntitlement</span>
+                  <div class="stack-trace">java.lang.AssertionError: Multiple Entitlement Test Failed: Expected condition failed: waiting for element to be clickable: By.xpath: //li[.//span[contains(text(),&apos;Entitlements&apos;)]]//ul//a[contains(text(),&apos;Add Entitlement&apos;)] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\91967\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58453}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58453/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 63ef572e620900f008886074f83c45ed
+	at com.orangehrm.LeavePage.addMultipleEntitlement(LeavePage.java:228)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchLeaveEntitlements">
+                  </a> <!-- searchLeaveEntitlements -->
+                  <span class="method-name">searchLeaveEntitlements</span>
+                  <div class="stack-trace">java.lang.AssertionError: Leave Entitlement Search Test Failed: Expected condition failed: waiting for element to be clickable: By.xpath: //li[.//span[contains(text(),&apos;Entitlements&apos;)]]//a[contains(text(),&apos;Leave Entitlements&apos;)] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\91967\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58453}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58453/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 63ef572e620900f008886074f83c45ed
+	at com.orangehrm.LeavePage.searchLeaveEntitlements(LeavePage.java:268)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateMyLeavePage">
+                  </a> <!-- validateMyLeavePage -->
+                  <span class="method-name">validateMyLeavePage</span>
+                  <div class="stack-trace">java.lang.AssertionError: My Leave Page Test Failed: Expected condition failed: waiting for visibility of element located by By.xpath: //h5[normalize-space()=&apos;My Leave&apos;] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\91967\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58453}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58453/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 63ef572e620900f008886074f83c45ed
+	at com.orangehrm.LeavePage.validateMyLeavePage(LeavePage.java:108)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OrangeHRM_Automation_Suite-class-failed -->
+          <div class="suite-OrangeHRM_Automation_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.orangehrm.PIMTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="employeeListSearchTest">
+                  </a> <!-- employeeListSearchTest -->
+                  <span class="method-name">employeeListSearchTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: Employee &apos;Divya Sri Surya&apos; not found in Employee List
+	at com.orangehrm.PIMTest.employeeListSearchTest(PIMTest.java:850)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillPersonalDetailsTest">
+                  </a> <!-- fillPersonalDetailsTest -->
+                  <span class="method-name">fillPersonalDetailsTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: Personal Details test failed
+	at com.orangehrm.PIMTest.fillPersonalDetailsTest(PIMTest.java:154)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="qualificationsTest">
+                  </a> <!-- qualificationsTest -->
+                  <span class="method-name">qualificationsTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: Qualifications test failed
+	at com.orangehrm.PIMTest.qualificationsTest(PIMTest.java:723)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OrangeHRM_Automation_Suite-class-failed -->
+          <div class="suite-OrangeHRM_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.orangehrm.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginDataDrivenTest(Admin, admin123)">
+                  </a> <!-- loginDataDrivenTest(Admin, admin123) -->
+                  <span class="method-name">loginDataDrivenTest</span>
+                  <span class="parameters">(Admin,admin123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OrangeHRM_Automation_Suite-class-passed -->
+          <div class="suite-OrangeHRM_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.orangehrm.LeavePage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="logoutTest">
+                  </a> <!-- logoutTest -->
+                  <span class="method-name">logoutTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="openLeavePage">
+                  </a> <!-- openLeavePage -->
+                  <span class="method-name">openLeavePage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateApplyLeavePage">
+                  </a> <!-- validateApplyLeavePage -->
+                  <span class="method-name">validateApplyLeavePage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OrangeHRM_Automation_Suite-class-passed -->
+          <div class="suite-OrangeHRM_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.orangehrm.PIMTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addEmployeeTest">
+                  </a> <!-- addEmployeeTest -->
+                  <span class="method-name">addEmployeeTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="contactDetailsTest">
+                  </a> <!-- contactDetailsTest -->
+                  <span class="method-name">contactDetailsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dependentsTest">
+                  </a> <!-- dependentsTest -->
+                  <span class="method-name">dependentsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="emergencyContactsTest">
+                  </a> <!-- emergencyContactsTest -->
+                  <span class="method-name">emergencyContactsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="immigrationRecordsTest">
+                  </a> <!-- immigrationRecordsTest -->
+                  <span class="method-name">immigrationRecordsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="jobDetailsTest">
+                  </a> <!-- jobDetailsTest -->
+                  <span class="method-name">jobDetailsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="membershipsTest">
+                  </a> <!-- membershipsTest -->
+                  <span class="method-name">membershipsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="salaryComponentsTest">
+                  </a> <!-- salaryComponentsTest -->
+                  <span class="method-name">salaryComponentsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="supervisorsTest">
+                  </a> <!-- supervisorsTest -->
+                  <span class="method-name">supervisorsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OrangeHRM_Automation_Suite-class-passed -->
+        </div> <!-- panel OrangeHRM_Automation_Suite -->
+        <div panel-name="test-xml-OrangeHRM_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\91967\eclipse-workspace\OrangeHRM-Automation\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;OrangeHRM Automation Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Login Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.orangehrm.LoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;PIM Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.orangehrm.PIMTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- PIM Tests --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Leave Module Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.orangehrm.LeavePage&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Leave Module Tests --&gt;
+&lt;/suite&gt; &lt;!-- OrangeHRM Automation Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-OrangeHRM_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for OrangeHRM Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Login Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">PIM Tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Leave Module Tests (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-OrangeHRM_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for OrangeHRM Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-OrangeHRM_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for OrangeHRM Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_OrangeHRM_Automation_Suite');
+function tableData_OrangeHRM_Automation_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(21);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'qualificationsTest')
+data.setCell(0, 2, 'com.orangehrm.PIMTest')
+data.setCell(0, 3, 34032);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'loginDataDrivenTest')
+data.setCell(1, 2, 'com.orangehrm.LoginTest')
+data.setCell(1, 3, 31972);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'contactDetailsTest')
+data.setCell(2, 2, 'com.orangehrm.PIMTest')
+data.setCell(2, 3, 28401);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'salaryComponentsTest')
+data.setCell(3, 2, 'com.orangehrm.PIMTest')
+data.setCell(3, 3, 24630);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'validateMyLeavePage')
+data.setCell(4, 2, 'com.orangehrm.LeavePage')
+data.setCell(4, 3, 22261);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'addMultipleEntitlement')
+data.setCell(5, 2, 'com.orangehrm.LeavePage')
+data.setCell(5, 3, 21792);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'searchLeaveEntitlements')
+data.setCell(6, 2, 'com.orangehrm.LeavePage')
+data.setCell(6, 3, 21791);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'addIndividualEntitlement')
+data.setCell(7, 2, 'com.orangehrm.LeavePage')
+data.setCell(7, 3, 20705);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'addEmployeeTest')
+data.setCell(8, 2, 'com.orangehrm.PIMTest')
+data.setCell(8, 3, 20361);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'employeeListSearchTest')
+data.setCell(9, 2, 'com.orangehrm.PIMTest')
+data.setCell(9, 3, 15771);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'emergencyContactsTest')
+data.setCell(10, 2, 'com.orangehrm.PIMTest')
+data.setCell(10, 3, 14697);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'fillPersonalDetailsTest')
+data.setCell(11, 2, 'com.orangehrm.PIMTest')
+data.setCell(11, 3, 12235);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'jobDetailsTest')
+data.setCell(12, 2, 'com.orangehrm.PIMTest')
+data.setCell(12, 3, 11910);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'supervisorsTest')
+data.setCell(13, 2, 'com.orangehrm.PIMTest')
+data.setCell(13, 3, 11211);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'immigrationRecordsTest')
+data.setCell(14, 2, 'com.orangehrm.PIMTest')
+data.setCell(14, 3, 10694);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'dependentsTest')
+data.setCell(15, 2, 'com.orangehrm.PIMTest')
+data.setCell(15, 3, 10564);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'loginDataDrivenTest')
+data.setCell(16, 2, 'com.orangehrm.LoginTest')
+data.setCell(16, 3, 4606);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'openLeavePage')
+data.setCell(17, 2, 'com.orangehrm.LeavePage')
+data.setCell(17, 3, 4542);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'logoutTest')
+data.setCell(18, 2, 'com.orangehrm.LeavePage')
+data.setCell(18, 3, 3172);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'validateApplyLeavePage')
+data.setCell(19, 2, 'com.orangehrm.LeavePage')
+data.setCell(19, 3, 2680);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'membershipsTest')
+data.setCell(20, 2, 'com.orangehrm.PIMTest')
+data.setCell(20, 3, 2224);
+window.suiteTableData['OrangeHRM_Automation_Suite']= { tableData: data, tableDiv: 'times-div-OrangeHRM_Automation_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 5 minutes</span>
+              <div id="times-div-OrangeHRM_Automation_Suite">
+              </div> <!-- times-div-OrangeHRM_Automation_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-OrangeHRM_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for OrangeHRM Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-OrangeHRM_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-OrangeHRM_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.orangehrm.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginDataDrivenTest(Adm, admin123)</span>
+                <span class="method-start">2750 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginDataDrivenTest(Admin, admin123)</span>
+                <span class="method-start">34726 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">39335 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.orangehrm.PIMTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">39646 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">addEmployeeTest</span>
+                <span class="method-start">49942 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">fillPersonalDetailsTest</span>
+                <span class="method-start">70305 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">contactDetailsTest</span>
+                <span class="method-start">82542 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">emergencyContactsTest</span>
+                <span class="method-start">110944 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dependentsTest</span>
+                <span class="method-start">125643 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">immigrationRecordsTest</span>
+                <span class="method-start">136210 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">jobDetailsTest</span>
+                <span class="method-start">146905 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">salaryComponentsTest</span>
+                <span class="method-start">158817 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">supervisorsTest</span>
+                <span class="method-start">183448 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">qualificationsTest</span>
+                <span class="method-start">194660 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">membershipsTest</span>
+                <span class="method-start">228694 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">employeeListSearchTest</span>
+                <span class="method-start">230920 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">246692 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.orangehrm.LeavePage</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">247084 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">openLeavePage</span>
+                <span class="method-start">254720 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateApplyLeavePage</span>
+                <span class="method-start">259263 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validateMyLeavePage</span>
+                <span class="method-start">261944 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">addIndividualEntitlement</span>
+                <span class="method-start">284207 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">addMultipleEntitlement</span>
+                <span class="method-start">304914 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">searchLeaveEntitlements</span>
+                <span class="method-start">326707 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logoutTest</span>
+                <span class="method-start">348500 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">351674 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.orangehrm.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">closeSuite</span>
+                <span class="method-start">352080 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

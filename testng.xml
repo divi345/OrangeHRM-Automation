@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="OrangeHRM Automation Suite" parallel="none">
+
+    <!-- Login Test -->
+    <test name="Login Test">
+        <classes>
+            <class name="com.orangehrm.LoginTest"/>
+        </classes>
+    </test>
+
+    <!-- PIM Test (Add/Search/Update/Screenshot) -->
+    <test name="PIM Tests">
+        <classes>
+            <class name="com.orangehrm.PIMTest"/>
+        </classes>
+    </test>
+    
+    <!-- Leave Tests -->
+    <test name="Leave Module Tests">
+        <classes>
+            <class name="com.orangehrm.LeavePage"/>
+        </classes>
+    </test>
+
+</suite>
